@@ -2,6 +2,7 @@ import { createRouter, createWebHashHistory } from 'vue-router'
 
 const Index = () => import('@/views/index.vue')
 const VideoPlayer = () => import('@/views/teleport/VideoPlayer.vue')
+const ThemeColor = () => import('@/views/v-bind-in-css/ThemeColor.vue')
 
 const routes = [
   {
@@ -12,6 +13,10 @@ const routes = [
   {
     path: '/videoPlayer',
     component: VideoPlayer
+  },
+  {
+    path: '/vbindcss',
+    component: ThemeColor
   }
 ]
 
