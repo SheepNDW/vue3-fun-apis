@@ -1,4 +1,6 @@
-# v-bind() in CSS 案例
+# `v-bind()` in CSS 案例
+
+參考閱讀：[官方文檔](https://vuejs.org/api/sfc-css-features.html#v-bind-in-css)
 
 ## 需求
 
