@@ -18,5 +18,8 @@
     <RouterLink class="demo-link" to="/tabs">
       使用 v-bind:is 做一個 Tabs 效果
     </RouterLink>
+    <RouterLink class="demo-link" to="/skeleton-loading">
+      使用 Suspense 做一個 Skeleton 效果
+    </RouterLink>
   </main>
 </template>
