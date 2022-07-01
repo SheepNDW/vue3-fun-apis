@@ -15,5 +15,8 @@
     <RouterLink class="demo-link" to="/debounce">
       使用 customRef() 做一個防抖效果
     </RouterLink>
+    <RouterLink class="demo-link" to="/tabs">
+      使用 v-bind:is 做一個 Tabs 效果
+    </RouterLink>
   </main>
 </template>
