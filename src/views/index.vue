@@ -12,5 +12,8 @@
     <RouterLink class="demo-link" to="/vbindcss">
       使用 v-bind() in CSS 去切換主題色
     </RouterLink>
+    <RouterLink class="demo-link" to="/debounce">
+      使用 customRef() 做一個防抖效果
+    </RouterLink>
   </main>
 </template>
