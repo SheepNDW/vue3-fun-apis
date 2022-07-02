@@ -2,12 +2,14 @@
 
 ## 需求
 
-* 製作一個個人資訊卡片，在載入前有 Skeleton 讀取效果
+* 製作一個個人資訊卡片，在非同步資料返回之前，先展示 Skeleton 讀取效果，資料請求回來後再展示視圖
 
 ## 思路
 
 1. 準備兩個元件一個是卡片本體的元件 一個是 skeleton 元件
 2. 透過 Suspense 去包裹兩個元件，讓卡片本體在請求資料前先呈現 skeleton 元件的內容
+
+> skeleton 也可以參考此套件: https://github.com/egoist/vue-content-loader
 
 ## 實現
 
