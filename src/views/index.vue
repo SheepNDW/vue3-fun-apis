@@ -26,5 +26,8 @@
     <RouterLink class="demo-link" to="/watchEffect">
       watchEffect 函式
     </RouterLink>
+    <RouterLink class="demo-link" to="/animals">
+      使用 v-memo 來優化列表渲染的效能
+    </RouterLink>
   </main>
 </template>
