@@ -13,3 +13,5 @@
 | 03 | 使用 customRef 製作防抖效果 | [線上連結](https://sheepndw.github.io/vue3-fun-apis/#/debounce)
 | 04 | 使用 `<component>` `is` 實現一個頁籤 | [線上連結](https://sheepndw.github.io/vue3-fun-apis/#/tabs)
 | 05 | 使用 Suspense 做一個 skeleton loading 效果 | [線上連結](https://sheepndw.github.io/vue3-fun-apis/#/skeleton-loading)
+| 06 | watchEffect 函式 | [線上連結](https://sheepndw.github.io/vue3-fun-apis/#/watchEffect)
+| 07 | v-memo 指令 | [線上連結](https://sheepndw.github.io/vue3-fun-apis/#/animals)
