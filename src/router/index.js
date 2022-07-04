@@ -6,6 +6,7 @@ const ThemeColor = () => import('@/views/v-bind-in-css/ThemeColor.vue')
 const DebounceDemo = () => import('@/views/customRef/Debounce.vue')
 const Tabs = () => import('@/views/dynamic-components/TabsComponent.vue')
 const Skeleton = () => import('@/views/suspense/SkeletonEffect.vue')
+const WatchEffect = () => import('@/views/watchEffect/demo.vue')
 
 const routes = [
   {
@@ -32,6 +33,10 @@ const routes = [
   {
     path: '/skeleton-loading',
     component: Skeleton
+  },
+  {
+    path: '/watchEffect',
+    component: WatchEffect
   }
 ]
 

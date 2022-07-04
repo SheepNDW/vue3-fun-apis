@@ -21,5 +21,8 @@
     <RouterLink class="demo-link" to="/skeleton-loading">
       使用 Suspense 做一個 Skeleton 效果
     </RouterLink>
+    <RouterLink class="demo-link" to="/watchEffect">
+      watchEffect 函式
+    </RouterLink>
   </main>
 </template>
