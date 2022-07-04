@@ -5,7 +5,9 @@
     <span class="text-green-600">Vue 3</span>Playground
     <img src="@/assets/logo.svg" alt="logo" class="w-11" />
   </h1>
-  <main class="flex flex-wrap gap-4 p-10">
+  <main
+    class="grid lg:grid-cols-3 2xl:grid-cols-4 justify-items-center gap-4 p-10"
+  >
     <RouterLink class="demo-link" to="/videoPlayer">
       使用 Teleport 實現影片縮放
     </RouterLink>
